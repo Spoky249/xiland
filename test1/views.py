@@ -14,3 +14,4 @@ def my2(request):
 
 def my3(request):
     return HttpResponse('<h1>my third page </h1>')
+
