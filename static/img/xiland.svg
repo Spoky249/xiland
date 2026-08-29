@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+    <defs>
+        <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#D8B4FE"/>
+            <stop offset="50%" stop-color="#A855F7"/>
+            <stop offset="100%" stop-color="#581C87"/>
+        </linearGradient>
+        <linearGradient id="silverMetallic" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F8FAFC"/>
+            <stop offset="40%" stop-color="#94A3B8"/>
+            <stop offset="100%" stop-color="#475569"/>
+        </linearGradient>
+        <linearGradient id="ringNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#F472B6"/>
+             <stop offset="50%" stop-color="#C084FC"/>
+             <stop offset="100%" stop-color="#38BDF8"/>
+            </linearGradient>
+            <filter id="superGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="5" result="blur1" />
+                <feGaussianBlur stdDeviation="1.5" result="blur2" />
+                <feMerge>        <feMergeNode in="blur1" />
+                    <feMergeNode in="blur2" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </defs>  <!-- خلفية داكنة فائقة التباين -->
+
+        <g transform="translate(100, 80)">    <!-- القائم الأول: خل الـ X الفضي/الرمادي المعدني -->
+            <path d="M 50,50 L 250,250 M 250,50 L 210,90"
+            stroke="url(#silverMetallic)" stroke-width="26" stroke-linecap="round"/>    <!-- القائم الثاني: شعاع البولسار البنفسجي النيون -->
+            <path d="M 50,250 L 130,170"           stroke="url(#purpleGlow)" stroke-width="26" stroke-linecap="round" filter="url(#superGlow)"/>    <!-- 1. يمنال حلقةال من الحلقة السليمة (أسو دثقب الأسود) -->
+            <path d="M 98,126 A 58 19 0 0 1 202,174" fill="none"           stroke="url(#ringNeon)" stroke-width="3.5" transform="rotate(-30 150 150)" opacity="0.45"/>ال    <!-- 2. كرة الثقب الأسود مي ةمتو هجةجية متوهجة -->
+            <circle cx="150" cy="150" r="34" fill="#070A13" stroke="url(#purpleGlow)" stroke-width="4.5" filter="url(#superGlow)"/>ما    <!-- 3. ميمزء الأمامي من الحلةا لسليمةأمة السليمة (أمام الثقب) -->
+            <path d="M 202,174 A 58 19 0 0 1 98,126" fill="none"           stroke="url(#ringNeon)" stroke-width="5" transform="rotate(-30 150 150)" stroke-linecap="round" filter="url(#superGlow)"/>    <!-- نص XILAND بعرض احترانا سقاعد متناسق -->
+
+        </g>
+    </svg>

@@ -2,7 +2,7 @@
  <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
         <a class="navbar-brand" href="{% url 'index' %}">
-            <img src="{% static 'img/mycoffee.png' %}" class="img-brand" alt="My Coffee">
+            <img src="{% static 'img/xiland.svg' %}" class="img-brand" alt="My Coffee">
             Xiland
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,13 +60,13 @@
                 Products
                 </a>
                 <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{% url 'product' %}">Caffè Americano</a>
-                <a class="dropdown-item" href="{% url 'product' %}">Café Latte</a>
+                <a class="dropdown-item" href="{% url 'product' pro_id=1 %}">Caffè Americano</a>
+                <a class="dropdown-item" href="{% url 'product' pro_id=1 %}">Café Latte</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{% url 'product' %}">Cappuccino</a>
-                <a class="dropdown-item" href="{% url 'product' %}">Espresso</a>
+                <a class="dropdown-item" href="{% url 'product' pro_id=1 %}">Cappuccino</a>
+                <a class="dropdown-item" href="{% url 'product' pro_id=1 %}">Espresso</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{% url 'products' %}">All Products</a>
+                <a class="dropdown-item" href="{% url 'products'  %}">All Products</a>
                 </div>
               </li>
 

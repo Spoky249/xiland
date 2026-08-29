@@ -28,12 +28,12 @@ body{
 }
 
 .img-brand:hover{
-    transform: rotate(360deg);
+    transform: scale(2.1);
 }
 
 .navbar-brand:hover .img-brand{
-    box-shadow: 1px 1px 10px #4e4e4e,
-                -1px -1px 10px #4e4e4e;
+    box-shadow: 1px 1px 10px #000000,
+                -1px -1px 10px #000000;
 }
 
 .navbar-brand{
@@ -42,18 +42,18 @@ body{
 }
 
 .navbar-brand:hover{
-    text-shadow: 1px 1px 10px #4e4e4e,
-                -1px -1px 10px #4e4e4e;
+    text-shadow: 1px 1px 10px #ffffff,
+                -1px -1px 10px #f8f8f8;
     transform: rotate(-1deg);
 }
 
 .navbar-custom {
   transition:0.5s;
-  background-color: #270250ce; 
+  background-color: #000000; 
 }
 
 .navbar-custom:hover:not(footer) {
-  background-color: #270250ce; 
+  background-color: #202020; 
 }
 
 .navbar li{
@@ -136,7 +136,7 @@ input[type=number]:focus,
 [type=email].form-control:focus, 
 [type=tel].form-control:focus, 
 [contenteditable].form-control:focus {
-  box-shadow: inset 0 -1px 0 #dddddd00,
+  box-shadow: inset 0 -1px 0 #00000000,
              1px 1px 6px #203cb9,
              -1px -1px 6px #203cb9;
 }
@@ -149,8 +149,8 @@ input[type=number]:focus,
 
 
 .jumbotron{
-  background-color: rgb(34, 34, 34);
-  color: #270250ce;
+  background-color: rgb(26, 0, 20);
+  color: #2e2e2ece;
 }
 
 .rounded-bottom{
@@ -179,11 +179,11 @@ input[type=number]:focus,
 }
 
 .my-form{
-  background-color: rgb(116, 116, 116);
+  background-color: rgb(0, 0, 0);
 }
 
 .my-content{
-  background-color: rgb(83, 83, 83);
+  background-color: rgb(0, 0, 0);
 }
 
 .my-content h1,
@@ -206,8 +206,50 @@ input[type=number]:focus,
   font-weight: bold;
 }
 #forman{
-  background-color: #000000;
+  background-color: #0d0124;
 }
 body{
-  background-color: #4e4e4e;
+  background-color: #00020b;
+}
+
+.brand-text h1, .brand-text p {
+  background: l;
+}
+
+
+.brand-icon svg {
+  width: 2em ;
+  height: 2em ;
+  vertical-align: middle;
+  margin-left: 20px ;
+  margin-top: -20px ;
+
+}
+.brand-icon{
+  font-size: 70px;
+}
+.brand-warp{
+  display: inline-flex ;
+  align-items: center;
+  gap: 4px;
+  font-size: 54px ;
+}
+
+.logo-1 path[stroke="url(#ringNeon)"]{
+  transform-origin: 0px 0px 0px  0px ;
+
+  animation:spinRing 5s linear infinite ;
+}
+@keyframes spinRing {
+  0%{transform: rotate(0deg) ;
+
+  100%{transform: rotate(360deg);}
+
+  0%{transform: rotate(0deg)
+
+    {tran}
+    
+  }
+
+  }
 }
