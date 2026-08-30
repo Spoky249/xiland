@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap');
 
 html, body{
   height: 100%;
@@ -16,7 +15,7 @@ a:hover{
 
 body{
     /*background-color: antiquewhite;*/
-    font-family: 'Merienda', cursive;
+    font-family: 'Syne', sans-serif;
     padding-top:65px;
 }
 
@@ -37,7 +36,7 @@ body{
 }
 
 .navbar-brand{
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Syne', sans-serif;
     transition: 0.5s;
 }
 
@@ -235,21 +234,8 @@ body{
   font-size: 54px ;
 }
 
-.logo-1 path[stroke="url(#ringNeon)"]{
-  transform-origin: 0px 0px 0px  0px ;
 
-  animation:spinRing 5s linear infinite ;
-}
-@keyframes spinRing {
-  0%{transform: rotate(0deg) ;
 
-  100%{transform: rotate(360deg);}
 
-  0%{transform: rotate(0deg)
 
-    {tran}
-    
-  }
 
-  }
-}
