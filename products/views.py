@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404 , render
 from . models import Product
 # Create your views here.
 
@@ -10,7 +10,10 @@ def products(request):
 
 
 def product(request , pro_id):
-    return render(request , 'products/product.html')
+    context={
+        'pro':get_object_or_404( Product , pk=pro_id )
+    }
+    return render(request , 'products/product.html' , context)
 
 def search(request):
     return render (request,'products/search.html')
