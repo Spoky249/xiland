@@ -1,0 +1,19 @@
+#header{
+    background: #000;
+    color: white
+}
+
+
+#head{
+    color: bisque;
+}
+
+.module h2,
+.module caption,
+.inline-group h2{ 
+    background: #3b3b3b;
+}
+
+ol.breadcrumbs{
+    background-color: #3b3b3b;
+}
