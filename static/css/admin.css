@@ -17,3 +17,21 @@
 ol.breadcrumbs{
     background-color: #3b3b3b;
 }
+
+
+
+.button, 
+input[type="submit"], 
+input[type="button"], 
+.submit-row input, 
+a.button{  
+     background-color: #3b3b3b;
+}  
+button, 
+input[type="submit"], 
+input[type="button"], 
+.submit-row input, 
+a.button {
+     background-color: #3b3b3b;
+}
+ 
